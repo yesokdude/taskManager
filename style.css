@@ -1,0 +1,47 @@
+body
+{
+	background-color: #EFF0F3;
+}
+
+
+.container
+{
+	margin-top: 10px;
+	width: 25%;
+	margin-left: 1px;
+}
+
+#form-control
+{
+	
+	float: left;
+	margin-right: 5%;
+
+}
+
+.btn
+{
+	background: #2FCC9A;
+	border: 2px solid #228E6C;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin-left: 130px;
+	margin-top: 5px;
+
+}
+
+h1
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+#circle {
+    width: 120px;
+    height: 120px;
+    background: #7fee1d;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
