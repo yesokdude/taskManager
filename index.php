@@ -27,6 +27,7 @@
 			$sql = "INSERT INTO task_table (task) VALUES ('{$_POST['taskarea']}')";
 			$query = mysqli_query($conn, $sql);
 			
+			
 		
 		}
 
@@ -45,10 +46,23 @@
 			echo $row['task'].'<br/>';
 
 		}
+		
 
 		?>
 	</div>
 
+	
+		<form action="" method="POST">
+			
+			<input id="xx" name="delAll" type="submit" value="Очистить список" />
+		</form>	
+	
 
+	<?php 
+		if(isset($_POST['delAll'])) {
+			$queryDel = mysqli_query($conn,"DELETE FROM task_table") or die('не удалилось');
+		}
+		
+	?>
 </body>
 </html>
